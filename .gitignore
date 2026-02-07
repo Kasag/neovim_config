@@ -1,0 +1,7 @@
+# lazy.nvim が生成するファイル
+lazy-lock.json
+
+# キャッシュ / 一時ファイル
+.cache/
+
+.neoconf.json
