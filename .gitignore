@@ -3,5 +3,3 @@ lazy-lock.json
 
 # キャッシュ / 一時ファイル
 .cache/
-
-.neoconf.json

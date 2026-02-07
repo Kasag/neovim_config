@@ -1,0 +1,15 @@
+{
+  "$schema": "https://raw.githubusercontent.com/folke/neoconf.nvim/main/schemas/neoconf.json",
+  "vim": {
+    "opt": {
+      "tabstop": 2,
+      "shiftwidth": 2,
+      "expandtab": true
+    }
+  },
+  "lspconfig": {
+    "lua_ls": {
+      "Lua.diagnostics.globals": ["vim"]
+    }
+  }
+}
