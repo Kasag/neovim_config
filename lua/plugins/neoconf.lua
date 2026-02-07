@@ -2,6 +2,8 @@ return {
   -- ワークスペースごとの設定を可能にする
   -- プロジェクトルートに .neoconf.json を置くことで、そのプロジェクト専用の設定ができる
   'folke/neoconf.nvim',
+  lazy = false, -- 最初に読み込む
+  priority = 1000, -- 他のプラグインより先に読み込む
   cmd = "Neoconf",
   config = function()
     require('neoconf').setup({
