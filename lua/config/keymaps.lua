@@ -10,7 +10,7 @@ map("n", "<Esc>", "<cmd>nohlsearch<CR>")
 
 -- 保存と終了 (VSCodeライク)
 map("n", "<C-s>", "<cmd>w<CR>", { desc = "Save file" })
-map("i", "<C-s>", "<Esc><cmd>w<CR>", { desc = "Save file from insert mode" })
+map("i", "<C-s>", "<C-o>:w<CR>", { desc = "Save file from insert mode" })
 
 -- ウィンドウ間の移動 (Ctrl + h/j/k/l)
 map("n", "<C-h>", "<C-w><C-h>", { desc = "Move focus to the left window" })

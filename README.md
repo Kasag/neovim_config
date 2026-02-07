@@ -59,7 +59,7 @@ brew install neovim git node ripgrep
 # 既存の設定をバックアップ
 mv ~/.config/nvim ~/.config/nvim.backup
 
-# この設定をクローン
+# この設定をクローン（リポジトリURLは自分のものに置き換えてください）
 git clone https://github.com/Kasag/neovim_config.git ~/.config/nvim
 ```
 
@@ -138,6 +138,8 @@ NeoVimを開いて`:Mason`コマンドを実行すると、利用可能なLSPサ
 - `gr`: 参照一覧を表示
 - `<Space>rn`: シンボルのリネーム
 - `<Space>ca`: コードアクション
+- `Tab`: 次の補完候補/スニペットプレースホルダーへ
+- `Shift-Tab`: 前の補完候補/スニペットプレースホルダーへ
 
 ### Git操作
 - `]c`: 次の変更箇所へ

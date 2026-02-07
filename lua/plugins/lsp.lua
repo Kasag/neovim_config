@@ -54,7 +54,7 @@ return {
         },
         -- Python
         pyright = {},
-        -- TypeScript/JavaScript
+        -- TypeScript/JavaScript (ts_ls は tsserver から改名されました)
         ts_ls = {},
         -- Rust
         rust_analyzer = {},
