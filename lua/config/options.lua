@@ -1,4 +1,8 @@
 -- yankとシステムクリップボードの共有
+if vim.env.SSH_TTY or vim.env.SSH_CONNECTION then
+  vim.g.clipboard = "osc52"
+end
+
 vim.opt.clipboard:append("unnamedplus")
 
 -- フォーマット関連
