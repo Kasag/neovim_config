@@ -19,6 +19,7 @@ return {
       formatters_by_ft = {
         -- ファイルタイプごとに利用するフォーマッタを指定。下２点はおまじない
         terraform = { "terraform_fmt" },
+        ["terraform-vars"] = { "terraform_fmt" },
         hcl = { "terraform_fmt" },
         tf = { "terraform_fmt" },
         tfvars = { "terraform_fmt" },

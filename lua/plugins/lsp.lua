@@ -22,6 +22,8 @@ return {
       ensure_installed = {
         -- lua用
         "lua_ls",
+        -- Terraform用
+        "terraformls",
       },
       -- MazonでインストールされたLSPを自動有効化
       automatic_enable = true,
